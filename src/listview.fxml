@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="423.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListViewController">
+   <children>
+      <Button layoutX="264.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="48.0" prefWidth="85.0" text="BACK" />
+      <HBox layoutX="130.0" layoutY="87.0" prefHeight="114.0" prefWidth="364.0" spacing="20.0">
+         <children>
+            <Label fx:id="wordlabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0">
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="freqlabel" alignment="CENTER" prefHeight="50.0" prefWidth="125.0">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
